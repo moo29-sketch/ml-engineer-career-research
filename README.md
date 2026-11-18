@@ -1,51 +1,33 @@
-# ORBIT/ML — IS218 Career Research Site
+# ORBIT/ML — IS218 Career Research
 
-A static, responsive research site exploring Machine Learning Engineer vs. Forward-Deployed AI Engineer career directions. The chosen design is a space/mission-control aesthetic in blue, black, gray, and white.
+Live site: https://moo29-sketch.github.io/ml-engineer-career-research/
+Repository: https://github.com/moo29-sketch/ml-engineer-career-research
 
-## What is complete
-- Research question and provisional comparison (clearly marked as assumptions)
-- Four user-provided secondary reference links
-- Two brand/layout directions
-- Four potential portfolio stories
-- Professional goal and review checklist
-- Accessible responsive layout with HTML, CSS, and JavaScript
+## Research question
+What skills and experiences would help me move toward ML engineering and how does that path compare with FDE work?
 
-## What must be completed before claiming rubric compliance
-1. Replace the **three EMP-0X placeholders** in `index.html` with three **original employer** job descriptions: FDE, a different AI-related tech position, and an AI position in a different industry. Include direct employer URLs and posting / accessed dates (distinguish missing publication dates), responsibilities, requirements, eligibility, and your gaps. Verify each page before writing claims.
-2. Review the four third-party links and record access dates. They are **not employer evidence**.
-3. Refine the side-by-side paths based on verified original descriptions; document the decision and alternatives.
-4. Cross-link the second, distinct AI/programming exploration site by replacing the placeholder link under `#review`. Add a reciprocal link on that other site.
-5. Get partner feedback via GitHub Issues. Record issue links, response, accepted documentation edits/commits, how edits were checked, and reviewer retest. Close only when reviewer has retried.
-6. Keep your full personal career reflection and private eligibility details in **private Canvas**, not in the public repository.
-7. Update the draft date and checklist as tasks are completed; do not mark unrun tests as passing.
+## Original employer links and findings
+- Accenture, Forward Deployed Engineer (consulting): https://www.accenture.com/us-en/careers/jobdetails?id=R00352354_en — Python/TypeScript, customer problems, rapid prototyping, production data apps; travel may be 0–100%. Posting date unknown.
+- Lockheed Martin, AI Machine Learning Engineering Sr (aerospace/defense): https://lockheedmartin.eightfold.ai/careers/job/996477472542 — Python, ML pipelines, GenAI, AI research, mission systems testing; bachelor's in related discipline. Supplied screenshot indicated posted Oct 22, 2026.
+- Blackstone, AI Engineer, Analyst (finance): https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/New-York/AI-Engineer--Analyst---Data-Analytics---AI_45238-1 — Python, SQL, retrieval, LLMs, CI/CD, production systems, 1+ years relevant experience. Posting date unknown.
 
-## Publish through GitHub Pages
-1. Create a **public repository** (e.g. `ml-career-mission`) on GitHub.
-2. Upload `index.html`, `styles.css`, `script.js`, and `README.md` at the repository root. Commit them.
-3. Open repository **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, branch `main`, folder `/(root)`, then save.
-4. The URL should follow `https://YOUR-USERNAME.github.io/ml-career-mission/` after deployment. This URL is an example **until you confirm it works**.
-5. Open the deployed site on desktop and mobile; test navigation, source links, focus states, and the second-site cross-link.
+Descriptions and links were supplied Nov 17–18, 2026. This is a **research capture period, not proof of actual access dates**. The site is based on supplied descriptions; independently reopening the live employer pages and confirming all details is **not yet completed**. Do not invent source dates or mark unchecked tasks done.
 
-## Suggested peer-review issue
-**Title:** Verify employer evidence and career-path comparison
+## Career comparison
+ML engineer: systems/models/evaluation/deployment. FDE: client solutions/prototyping/delivery. Blackstone: applied AI for financial workflows. Provisional preferred career: ML engineer. The space-themed mission-control layout is selected over a light engineering-notes alternative. Four future portfolio story seeds are on the site.
 
-**Steps:** Open the deployed page; visit Evidence and Compare; check whether the three original employer descriptions are dated, directly linked, and reflected in the comparison.
+## Remaining requirements
+1. Independently verify all original employer pages, their job posting and actual access dates, eligibility and claims. Recheck secondary references as needed.
+2. Add the separate AI/programming exploration research site link in `index.html` Review section and reciprocally link back from that site.
+3. Ask a partner to file specific GitHub issue feedback; record owner response and linked commit/change/check. Ask reviewer to retry before closing an issue. Do not claim review happened until it did.
+4. Keep complete personal eligibility circumstances and reflection private in Canvas.
 
-**Expected:** Original job descriptions and relevant duties, eligibility, and gaps can be independently verified.
+## Deploy update
+Upload all four individual files to the root of the existing GitHub repository, replacing the same-named files, and commit. Pages deploys from main / root. Check Actions for successful Pages deployment and reload the site.
 
-**Actual:** [Reviewer writes their observed result here.]
+## Canvas short update template
+Current work: https://moo29-sketch.github.io/ml-engineer-career-research/ | Repository: https://github.com/moo29-sketch/ml-engineer-career-research | Project record: [existing record] | Issue/change/check: [real URLs or unrun].
 
-**Follow-up:** [Owner links accepted fix/commit and test; reviewer retries before issue closure.]
-
-## Canvas submission mini-template (fill with real URLs)
-Current work: [live research site URL] | Repository: [GitHub repo URL]. Project record: [existing project record URL]. Issue/change/check: [actual links; label unrun honestly].
-
-Changed: Drafted the career research site and compared two directions.
-
-Checked: [List checks you really ran, or "Not yet run."]
-
-Next: Verify three original employer postings, collect partner feedback, and cross-link the second site.
-
-**Assignment notice:** The supplied deadline was Friday, November 13, 2026 at 10:00 a.m. Eastern. As of November 17, 2026, that date has passed; ask your instructor about late-submission rules if needed.
-
-No claims that original jobs, website URLs, or peer reviews are verified are made by this draft.
+Changed: Added 3 employer descriptions, qualifications, skills gaps and a two-career comparison.
+Checked: Compared supplied descriptions; independent live checks and peer retest not run.
+Next: Confirm source dates/details, cross-link second site, and complete issue feedback/retest.
